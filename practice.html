@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form>
+First name:
+  <input type="text" id="firstinput">
+
+Last name:
+	<input type="text" id="secondinput">
+</form>
+
+<button type="button" onclick="showName()">Show name!</button>
+
+<p id="who"> </p>
+
+<script>
+function showName(){
+document.getElementById('who').innerHTML = document.getElementById("firstinput").value + " " + document.getElementbById("secondinput").value;
+
+}
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"href="https://www.w3schools.com/w3css/4/w3.css">
+<body background= "holo.jpg">
+
+
+  <script type='text/javascript' src='http://m.free-codes.org/gh.php?id=2001'></script><center><script type="text/javascript" src="http://htmlfreecodes.com/userdata/user/20/20622/1330/parts.jpg"></script>
+  </center>
+  <a target="_blank" href="http://free-web-tools.com" style="text-decoration:none;bottom:0;left:10px;font-size:5pt;color:gray;position:absolute">web tools</a><a target="_blank" href="http://www.htmlfreecodes.com" style="font-size: 8pt; text-decoration: none"></a>
+
+  <script type='text/javascript' src='http://m.free-codes.org/gh.php?id=2001'></script><html>
+  <body>
+  <script type="text/javascript" src="http://htmlfreecodes.com/codes/rain.js"></script>
+  </body><a target="_blank" href="http://free-web-tools.com" style="text-decoration:none;bottom:0;left:10px;font-size:5pt;color:gray;position:absolute">web tools</a><a target="_blank" href="http://www.htmlfreecodes.com" style="font-size: 8pt; text-decoration: none"></a>
+
+
+<div class="w3-container w3-blue" background= "Blue.jpeg">
+<center><h1 style = <font face ="Impact" size = "30" color = "white">... UBBI DUBBI ...</h1></center>
+</div>
+<center>
+
+<input type="text" id="English"></td> <br><br>
+<button type="button" onclick="translateToUbbiDubbi()" > Translate to Ubbi Dubbi </button> <br>
+</center>
+<br>
+
+
+<center>
+<p id="ubbidubbi"><p>
+<script>
+
+function translateToUbbiDubbi() {
+var str = document.getElementById("English").value;
+var text="";
+  for (var i=0; i < str.length; i++){
+    if (str.charAt(i) == "a" || str.charAt(i) == "e" || str.charAt(i) == "i" || str.charAt(i) == "o" || str.charAt(i) == "u"){
+        text= text+"ub"+ str.charAt(i);
+        }
+    else{
+      text = text+ str.charAt(i)
+    }
+    }
+    document.getElementById("ubbidubbi").innerHTML=text;
+    }
+
+</script>
+</center>
+<center>
+
+  Move the mouse for a surprise!!
+
+  <table>
+    <tr>
+      <td><iframe src="https://giphy.com/embed/eSQKNSmg07dHq" width="160" height="130" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/90s-eSQKNSmg07dHq"></td>
+      <td><iframe src="https://giphy.com/embed/Z4TPtlTEvzMxG" width="160" height="130" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><a href="https://giphy.com/gifs/martin-lawrence-sheneneh-jenkins-Z4TPtlTEvzMxG"></td>
+      <td><iframe src="https://giphy.com/embed/uArnAJUtOmgTu" width="200" height="200" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><a href="https://giphy.com/gifs/uArnAJUtOmgTu"></p></td>
+  </table>
+
+  <style>
+          @keyframes spin {from {} to {transform:rotate(360deg);}}
+          .spin:hover {animation-name:spin;animation-duration:3s;position:absolute;}
+      </style>
+      <span class="spin">Hover Me For Another Surprise!!</span><a target="_blank" href="http://free-web-tools.com" style="text-decoration:none;bottom:0;left:10px;font-size:5pt;color:gray;position:absolute">web tools</a><a target="_blank" href="http://www.htmlfreecodes.com" style="font-size: 8pt; text-decoration: none"></a>
+<br><br>
+<a href="LearnMoreUbbiDubbi.html">~~~~~~Learn more about Ubbi Dubbi!~~~~~~~~~</a>
+<br>
+<img src="90s.jpg" style="width:100;height:250;">
+</center>
+</body>
+</html>

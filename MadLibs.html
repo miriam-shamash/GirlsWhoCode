@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+  <html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"href="https://www.w3schools.com/w3css/4/w3.css">
+
+<!--Tabs at the top-->
+<style>
+{margin:0;}
+.topnav {
+  overflow: hidden;
+  background-color: #9966ff;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #3399ff;
+  color: blue;
+}
+.topnav a.active {
+    background-color: #ff66ff;
+    color: white;
+}
+.topnav .icon {
+    display:hide
+}
+
+</style>
+<!--Background-->
+   <body background= "Question.jpg">
+
+<!--Header-->
+<h1 style="font-size:350%;"> <center><font face = "Brush Script MT" color = "white">Create your own Mad Libs!</font></center></h1>
+   </div>
+
+<!--Tabs-->
+<div class="topnav">
+     <a href="#home">Home</a>
+     <a href="#References">References</a>
+</div>
+
+<!--Input fields-->
+<p><font face = "times new roman" color = "pink">Enter the designated parts of speech into the text boxes,
+  then click "Submit" to create your Mad Libs.</font></p>
+<!--<form id="frm1">
+   <center> <b>
+<font face= "times new roman" color = "pink">
+Location Noun: <input type="text" id="location"><br>
+Noun: <input type="text" id="noun1" ><br>
+Number: <input type="text" id="number"><br>
+Noun: <input type="text" id="noun2"><br>
+Name: <input type="text" id="name"><br>
+Noun: <input type="text" id="noun2"><br>
+Verb: </font><input type="text" id="verb"><br>
+  </center> </b>
+</form> -->
+
+<table style="width:100%" ><center>
+  <tr>
+    <td>Location Noun</td>
+    <td> <input type="text" id="location"></td>
+  </tr>
+  <tr>
+    <td>Noun</td>
+    <td><input type="text" id="noun1" ></td>
+  </tr>
+  <tr>
+    <td>Number</td>
+    <td><input type="text" id="number"></td>
+  </tr>
+    <tr>
+    <td>Noun</td>
+    <td><input type="text" id="noun2"></td>
+  </tr>
+  <tr>
+    <td>Name</td>
+    <td><input type="text" id="name"></td>
+  </tr>
+    <tr>
+    <td>Verb</td>
+    <td><input type="text" id="noun2"></td>
+
+  </tr>
+</center>
+</table>
+
+<!--Submit button-->
+<button type="button" onclick="fillStory()" > Submit </button>
+<p id="story"> </p>
+<script>
+
+function fillStory(){
+    document.getElementById("story").innerHTML= "It is finally summer vacation and after a long school year, Sara decides to go on vacation. She choses to go to " + " " + document.getElementById("location").value;
+    document.getElementbyId("story").innerHTML = "She arrived at" + " " + document.getElementbyId("noun1").value; + "Airport"
+    //document.getElementbyId("number").value; +  "hours early only to find that her plane has been delayed 5 hours."
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"href="https://www.w3schools.com/w3css/4/w3.css">
+<body background= "Blue.png">
+
+<div class="w3-container w3-blue" background= "choco.jpeg">
+<h1 style = <center><font face ="Brush Script MT" size = "25" color = "white"> What Chocolate Bar are you? </center></h1>
+</div>
+
+
+<div style= "font-size:20px; font-family:Cambria; color:blue" id="q1">
+  <br><center>
+Question 1: How do you prefer your snacks?<br>
+<button type="choice1" onclick="addCategory1()" > simple </button><br>
+<button type="choice2" onclick="addCategory2()" > sweet </button><br>
+<button type="choice3" onclick="addCategory3()" > crispy </button><br><br>
+</center>
+</div>
+
+<div style= "font-size:20px; font-family:Cambria; color:blue;" id="q2">
+<center>
+Question 2: How do you prefer the texture of your baked chocolate chip cookies?<br>
+<button type="choice1" onclick="addCategory1()" value="0" > Doesn't matter to me </button><br>
+<button type="choice2" onclick="addCategory2()" > 100% smooth chocolate </button><br>
+<button type="choice3" onclick="addCategory3()" > I'm all about crunchiness </button><br><br>
+</center>
+</div>
+
+<div style= "font-size:20px; font-family:Cambria; color:blue" id="q3">
+<center>
+Question 3: How do you like the filling of your chocolate?<br>
+<button type="choice1" onclick="addCategory1()" > Including nuts </button><br>
+<button type="choice2" onclick="addCategory2()" > Including caramel </button><br>
+<button type="choice3" onclick="addCategory3()" > Including wafers </button><br><br>
+</center>
+</div>
+
+
+<center><button onclick="getResults()" style= "font-size:25px; color:Red"><center> What chocolate am I? </button></center>
+
+<p id="demo">
+</p>
+<script>
+function score(){
+var HersheyTally = 0;
+var MilkyWay = 0;
+var Kitkat = 0;
+}
+
+function addCategory1(){
+if ( ){
+  HersheyTally++;
+  }
+  else if ( ) {
+  MilkyWay++ ;
+  }
+  else if(){
+  Kitkat++;
+  }
+}
+
+function addCategory2(){
+if(){
+  HersheyTally++;
+  }
+  else if ( ) {
+  MilkyWay++ ;
+  }
+  else if(  ){
+    Kitkat++;
+  }
+}
+
+function addCategory3(){
+  if(){
+  HersheyTally++;
+  }
+  else if ( ) {
+  MilkyWay++ ;
+  }
+  else if( ){
+    Kitkat++;
+  }
+}
+
+function getResults(){
+if (HersheyTally > Milky Way && KitKat){
+  alert('You are a Hershey Bar');
+}
+
+if(MilkyWay > HersheyTally && Kitkat){
+  alert('You are a Milky Way Bar');
+}
+
+if(Kitkat > HersheyTally && MilkyWay){
+  alert('You are a Kitkat Bar');
+
+  else {
+    alert('You are a Snicker Bar');
+  }
+}
+}
+
+</script>

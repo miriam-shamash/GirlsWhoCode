@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"href="https://www.w3schools.com/w3css/4/w3.css">
+
+<div class="w3-container w3-blue">
+<h1 style="font-family:Friandise;font-size:60px; color:white">DO YOUR PART</h1>
+</div>
+</head>
+
+<style>
+body {background-image: url("Stones.jpg"); background-size: cover background-repeat: no-repeat;}
+ul {}
+table {
+
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+th {
+	background-color: white;
+}
+
+td, th {
+    border: 0px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<table>
+  <tr>
+    <th>The Red Cross</th>
+    <th>UNICEF</th>
+    <th>Food For the Poor</th>
+    <th>Feeding America</th>
+    <th>Action Against Hunger</th>
+  </tr>
+  <tr>
+    <td>From small house fires to multi-state natural disasters, the American Red Cross goes wherever they’re needed, so people can have clean water, safe shelter and hot meals when they need them most.
+After a disaster, the Red Cross works with community partners to provide hot meals, snacks and water served as shelters or from Red Cross emergency response vehicles in affected neighborhoods.
+</td>
+    <td>From the donations received by donors like you, the Unicef Emergency Relief team works on the ground in all 13 of the countries in Africa and the Middle East most threatened by famine. As soon as we receive the donations we need to save kids, we can work quickly to deliver lifesaving malnutrition treatment and care.
+Because we put children first, we also use your donations wisely and efficiently. Of every dollar we spend, 90 cents goes directly to help children.
+</td>
+    <td>Food For The Poor strives to lift the poor out of poverty. In 2015 we shipped 3,660 tractor-trailer loads of essential goods to the poor. In 2015 we built or rebuilt 34 schools and shipped 176 tractor-trailer loads of school supplies and furniture. We support hundreds of self-help, micro-enterprise initiatives.
+</td>
+    <td> The Feeding America network is the nation’s largest domestic hunger-relief organization. Together with individuals, charities, businesses and government we can end hunger. We work to get nourishing food – from farmers, manufacturers, and retailers – to people in need.
+</td>
+    <td>Action Against Hunger is a global humanitarian organization that takes decisive action against the causes and effects of hunger. We save the lives of malnourished children. We ensure everyone can access clean water, food, training and healthcare. We enable entire communities to be free from hunger. In the past year, Action Against Hunger's global network served 14.7 million people in nearly 50 countries.
+</td>
+  </tr>
+  <tr>
+  <td><style>
+.container {
+  position: relative;
+  width: 250px;
+}
+
+.image {
+  display: block;
+  width: 250px;
+  height: 250px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <img src="RedCross.jpg" class="image">
+  <div class="overlay">
+    <div class="text"><p>
+   	 <a href="http://www.redcross.org/donations/ways-to-donate">Donate to <br> the Red Cross</a></p>
+</div>
+  </div>
+</div></td>
+    <td><style>
+.container {
+  position: relative;
+  width: 250px;
+}
+
+.image {
+  display: block;
+  width: 250px;
+  height: 250px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <img src="Unicef.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text"><p><a href="https://www.unicefusa.org/donate/save-children-famine/31975">Donate to <br>UNICEF</a></p>
+</div>
+  </div>
+</div></td>
+    <td><style>
+.container {
+  position: relative;
+  width: 250px;
+}
+
+.image {
+  display: block;
+  width: 250px%;
+  height: 250px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <img src="FoodForThePoor.JPG" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text"><p><a href="https://secure3.convio.net/ffp/site/Donation2?df_id=16361&16361.donation=form1&_ga=2.2964080.1918262606.1501170384-1660971201.1501170384">Donate to <br>Food for the Poor</a></p></div>
+  </div>
+</div></td>
+
+    <td><style>
+.container {
+  position: relative;
+  width: 250px;
+}
+
+.image {
+  display: block;
+  width: 250px;
+  height: 250px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <img src="FeedingAmerica.JPG" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text"><p>
+    <a 	href="https://secure.feedingamerica.org/site/Donation2;jsessionid=00000000.app226b?df_id=25239&25239.donation=form1&mfc_pref=T&s_onsite_promo=fy18_summer_hunger_lightbox&s_src=Y17YP1F1X&s_keyword=feeding%20americans&s_subsrc=c&_ga=2.25320189.1337614778.1501170942-1200768767.1501170942&NONCE_TOKEN=3A117D5C1B2DA66B34F6859C52191A64">Donate to <br>Feeding America</a></p>
+
+  </div>
+</div></td>
+
+    <td><style>
+.container {
+  position: relative;
+  width: 250px;
+}
+
+.image {
+  display: block;
+  width: 250px;
+  height: 250px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+</style>
+<body>
+
+<div class="container">
+  <img src="ActionAgainstHunger.JPG" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text"><p>
+    <a 	href="https://my.actionagainsthunger.org/checkout/donation?eid=24902">Donate to <br>Action Against Hunger</a></p>
+
+</div>
+</div></td>
+
+  </tr>
+</table>
+
+</body>
+</html>
